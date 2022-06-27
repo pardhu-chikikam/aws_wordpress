@@ -1,5 +1,5 @@
 #!/bin/bash
-udo yum update -y
+sudo yum update -y
 sudo amazon-linux-extras install -y php7.2
 sudo yum install -y httpd php-mysqlnd
 sudo systemctl start httpd
